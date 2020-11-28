@@ -1,6 +1,6 @@
 ![Logo Filecify](https://i.imgur.com/ijp3Vkz.png)
 
-[![MADE BY Django](https://img.shields.io/badge/MADE%20WITH%20Django-000000.svg?style=flat&logo=Django&labelColor=000)](https://www.djangoproject.com/)
+[![MADE BY Django](https://img.shields.io/badge/Made%20with%20Django-000000.svg?style=flat&logo=Django&labelColor=000)](https://www.djangoproject.com/)
 
 Project gemaakt voor het vak K-sec op het Mediacollege
 
