@@ -1,4 +1,4 @@
-![Logo Filecify](https://i.imgur.com/AXLg8Sr.png)
+![Logo Filecify](https://i.imgur.com/ijp3Vkz.png)
 
 [![MADE BY Django](https://img.shields.io/badge/MADE%20WITH%20Django-000000.svg?style=flat&logo=Next.js&labelColor=000)](https://www.djangoproject.com/)
 
