@@ -28,7 +28,7 @@ $ python manage.py runserver
 - [TypeScript](https://www.typescriptlang.org/)
 - [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
 
-## Customization
+## Structure
 
 Hieronder is de structuur van het project te zien. 
 
