@@ -5,7 +5,7 @@
 Project gemaakt voor het vak K-sec op het Mediacollege
 
 Applicatie om video's te uploaden op de meest veilige manier mogelijk. Wanneer het project word gecloned is het ook mogelijk
-om on andere video's te verwijderen of aan te passen via het admin paneel.
+om onder andere video's te verwijderen of aan te passen via het admin paneel.
 
 Project gemaakt met Python framework Django in Visual Studio Code.
 
