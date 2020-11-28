@@ -22,6 +22,11 @@ $ python manage.py runserver
 - **Cross site scripting (XSS) protection**: XSS attacks allow a user to inject client side scripts into the browsers of other users.
 - **Cross site request forgery (CSRF) protection**: CSRF attacks allow a malicious user to execute actions using the credentials of another user without that user’s knowledge.
 - **SQL injection protection**: SQL injection is a type of attack where a malicious user is able to execute arbitrary SQL code on a database.
+- **Clickjacking protection**: Clickjacking is a type of attack where a malicious site wraps another site in a frame.
+- **SSL/HTTPS**: It is always better for security to deploy your site behind HTTPS.
+- **Host header validation**: Django uses the Host header provided by the client to construct URLs in certain cases.
+- **Referrer policy**: Browsers use the Referer header as a way to send information to a site about how users got there.
+- **Session security**: Similar to the CSRF limitations requiring a site to be deployed such that untrusted users don’t have access to any subdomains.
 
 ## Dependencies
 
