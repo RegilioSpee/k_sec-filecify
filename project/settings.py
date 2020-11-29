@@ -21,12 +21,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '3$nnib--g+kcvf!zh(ivxjb*ucxamo&5%_e+z$6tn$9i^ovc1d'
+SECRET_KEY = 'xkv@*jwd)b0uf&k9x12+nfavgp)r&46==#atrhj9#tfjfncm8#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+STATICFILES_DIRS = [
+    "/projects/mediacollege/filecify-v2/app/static",
+]
 
 
 # Application definition
@@ -38,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'video',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -120,5 +124,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_URL="/media/"
+MEDIA_URL= '/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,"media/")
