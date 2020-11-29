@@ -38,14 +38,23 @@ $ python manage.py runserver
 Hieronder is de structuur van het project te zien. 
 
 ```
-mysite/
-    manage.py
-    mysite/
-        ├── init.py
-        ├── settings.py
-        ├── urls.py
-        ├── asgi.py
-        └── wsgi.py
+filecify/
+     manage.py
+     db.sqlite3
+      app/
+         ├── admin.py
+         ├── apps.py
+         ├── forms.py
+         ├── models.py
+         └── tests.py
+         └── validators.py
+         └── views.py
+      project/
+         ├── init.py
+         ├── settings.py
+         ├── urls.py
+         ├── asgi.py
+         └── wsgi.py
 ```
 
 ## References
