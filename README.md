@@ -60,6 +60,7 @@ filecify/
 ## References
 
 - [Django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
+- [Google docs](https://docs.google.com/document/d/1X3cLMAq5acO5IeP4wIgmPsOeRnepxQgw45YJ14Dy_X0/edit?usp=sharing)
 
 ## License
 
