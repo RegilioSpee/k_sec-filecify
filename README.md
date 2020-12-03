@@ -11,16 +11,15 @@ Project gemaakt met Python framework Django in Visual Studio Code. Info hierover
 
 ## Demo
 
-Het django project is gelijk te gebruiken, lees hieronder hoe je dat doet.
+Na de [installatie](https://docs.djangoproject.com/en/3.1/intro/install/) van Python en Django is het project gelijk te gebruiken, lees hieronder hoe je dat doet.
 
 - Clone het project via: Code > Download ZIP
 - Unzip het project en open het in je favoriete text editor, een IDE is niet nodig
 - Klik op het adres in file explorer en type 'cmd'. Zet daarna de lijn code hieronder in de command prompt
 
 ```
-( $ ) py manage.py runserver
+ $  py manage.py runserver
 ```
-Binnen de round brackets () is alleen voor Apple gebruikers
 
 ## Features
 
