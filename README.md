@@ -11,7 +11,11 @@ Project gemaakt met Python framework Django in Visual Studio Code. Info hierover
 
 ## Demo
 
-Gebruik de onderstaande code om het project lokaal te runnen na het te hebben gecloned via Github.
+Het django project is gelijk te gebruiken, lees hieronder hoe je dat doet.
+
+- Clone het project via: code > Download ZIP
+- Unzip het project en open het in je favoriete text editor, een IDE is niet nodig
+- Klik op het adress in file explorer en typ 'cmd'. Zet daarna de lijn code hieronder in de command prompt. 
 
 ```
 $ python manage.py runserver
