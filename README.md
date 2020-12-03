@@ -15,7 +15,7 @@ Het django project is gelijk te gebruiken, lees hieronder hoe je dat doet.
 
 - Clone het project via: Code > Download ZIP
 - Unzip het project en open het in je favoriete text editor, een IDE is niet nodig
-- Klik op het adress in file explorer en typ 'cmd'. Zet daarna de lijn code hieronder in de command prompt. 
+- Klik op het adres in file explorer en type 'cmd'. Zet daarna de lijn code hieronder in de command prompt
 
 ```
 $ python manage.py runserver
