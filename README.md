@@ -18,8 +18,9 @@ Het django project is gelijk te gebruiken, lees hieronder hoe je dat doet.
 - Klik op het adres in file explorer en type 'cmd'. Zet daarna de lijn code hieronder in de command prompt
 
 ```
-$ python manage.py runserver
+( $ ) py manage.py runserver
 ```
+Binnen de round brackets () is alleen voor Apple gebruikers
 
 ## Features
 
