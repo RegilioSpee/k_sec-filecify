@@ -13,7 +13,7 @@ Project gemaakt met Python framework Django in Visual Studio Code. Info hierover
 
 Het django project is gelijk te gebruiken, lees hieronder hoe je dat doet.
 
-- Clone het project via: code > Download ZIP
+- Clone het project via: Code > Download ZIP
 - Unzip het project en open het in je favoriete text editor, een IDE is niet nodig
 - Klik op het adress in file explorer en typ 'cmd'. Zet daarna de lijn code hieronder in de command prompt. 
 
