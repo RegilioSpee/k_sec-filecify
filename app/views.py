@@ -8,7 +8,7 @@ def index(request):
         form=Video_form(data=request.POST,files=request.FILES)
         if form.is_valid():
             form.save()        
-            return HttpResponse("<h1> Uploaded successfully </h1>")
+            return HttpResponse("<h5> Your video was uploaded </h5>")
     else:
         form=Video_form()
     return render(request,'index.html',{"form":form,"all":all_video})
