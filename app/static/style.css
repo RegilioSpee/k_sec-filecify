@@ -1,86 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: SF Pro Display;
+body,
+html {
+  font-family: 'Inter', sans-serif !important;
 }
-p {
-  color: white;
-  float: right;
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-}
-.navbar {
-  padding-top: 40px;
-}
-.upload {
-  margin-left: 220px;
-  margin-right: 220px;
-}
+
 h1 {
-  color: white;
-  font-size: 64px;
-  margin-top: 140px;
-}
-.header {
-  background-color: #32067C;
-  height: 500px;
+  font-weight: 700 !important;
 }
 
-span {
-  color: white;
-  font-size: 24px;
-} 
-.wrapper {
-  width: calc(100% - 2rem);
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto; 
+.btn-lg {
+  height: 100% !important;
 }
 
-img {
-  color: white;
+#id-video input {
+  padding: 8px 16px !important;
 }
 
-.mt-5 {
-  margin-top: -100px;
-  height: 198px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 4px 0px grey;
-  z-index: 2;
-  background-color: white;
-}
-
-.upload_button{
-  background-color: #32067C;
-  height: 64px;
-  width: 298px;
-  border-radius: 6px;
-  color: white;
-  font-size: 24px;
-  margin-top: 65px;
-  margin-bottom: 60px;
-  margin-left: 60px;
-}
-
+button,
 input {
-  background-color: #F4F4F4;
-  height: 64px;
-  margin-top: 65px;
-  margin-bottom: 60px;
-  margin-right: 1px;
-  border: none;
-  color: #32067C;
-}
-h3 {
-  margin-top: 40px;
+  width: 100% !important;
+  height: 40px;
+  border-radius: 6px;
+  border-color: #8f8f8f !important;
 }
 
-video {
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 496px;
-  max-width: 1000px;
+label {
+  font-weight: 500 !important;
+  font-size: 18px;
 }
