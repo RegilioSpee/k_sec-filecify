@@ -16,14 +16,15 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <title>Register | Filecify</title>
   </head>
   <body>
-    <form action="." method="post">
-        {% csrf_token %}
-        {{user_form.as_p}}
+    <div class="registerContainer">
+      <form action="." method="post">
+        {% csrf_token %} {{user_form.as_p}}
         <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+      </form>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

@@ -22,26 +22,26 @@ def registration(request):
         user_form=UserCreationForm(request.POST)
         if user_form.is_valid():
             user_form.save()
-            messages.success(request, 'Video uploaded succesfully')  
-    else: 
+            return HttpResponse("<h1>Registration successful</h1>")
+    else:
         user_form=UserCreationForm()
-        return render(request, 'registration.html',{'user_form':user_form})
+    return render(request, 'registration.html',{'user_form':user_form})
 
 def user_login(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         login_form=LoginForm(request.POST)
-        if form.is_valid():
-            cd=form.cleaned_data
+        if login_form.is_valid():
+            cd=login_form.cleaned_data
             user=authenticate(request,username=cd["username"],password=cd["password"])
             if user is not None:
                 if user.is_active:
                     login(request,user)
-                    return HttpResponse('<h1>Login succesfully</h1>')
+                    return redirect('../')
                 else: 
                     return HttpResponse('<h1>Disable account</h1>')
             else: 
                 return HttpResponse('<h1>Invalid login</h1>')
-        else: 
-             login_form=LoginForm()
-        return render(request, 'login.html',{'login_form':login_form})
+    else: 
+         login_form=LoginForm()
+    return render(request, 'login.html',{'login_form':login_form})
 

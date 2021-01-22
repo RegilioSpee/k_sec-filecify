@@ -29,3 +29,35 @@ label {
   font-weight: 500 !important;
   font-size: 18px;
 }
+
+.registerButton {
+  width: 100%;
+}
+
+.loginButton {
+  width: 100%;
+}
+
+#registerCaption {
+  color: grey;
+  text-align: center;
+}
+
+#loginCaption {
+  color: grey;
+  text-align: center;
+}
+
+.registerContainer input {
+  font-size: 30px !important;
+  background-color: red !important;
+}
+
+.loginCaption input {
+  font-size: 30px !important;
+  background-color: red !important;
+}
+
+span.helpText {
+  color: red !important;
+}

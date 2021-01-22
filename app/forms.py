@@ -12,6 +12,6 @@ class Video_form(forms.ModelForm):
         ordering = ['-date',]
 
 class LoginForm(forms.Form):
-    username = forms.CharField()
-    password = forms.CharField(widget=forms.PasswordInput)
+    username=forms.CharField()
+    password=forms.CharField(widget=forms.PasswordInput)
 
